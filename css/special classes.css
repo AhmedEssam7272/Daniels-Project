@@ -1,0 +1,160 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import "style.css";
+/* Start Classes For Colors */
+.head-testi {
+  color: #343434;
+}
+.sub-head {
+  color: #748182;
+}
+.gray-testi {
+  color: #888;
+}
+/* End Classes For Colors */
+
+/* Start Classes For Fonts */
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+/* End Classes For Fonts */
+
+/* Start Classes For Font Weights */
+.weight200-font {
+  font-weight: 200;
+}
+
+.weight500-font {
+  font-weight: 500;
+}
+.weight600-font {
+  font-weight: 600;
+}
+
+.weight700-font {
+  font-weight: 700;
+}
+.weight800-font {
+  font-weight: 800;
+}
+
+.weight900-font {
+  font-weight: 900;
+}
+/* End Classes For Font Weights */
+
+/* Start Classes For Font Sizes */
+.font12-size {
+  font-size: 12px;
+}
+.font13-size {
+  font-size: 13px;
+}
+.font14-size {
+  font-size: 14px;
+}
+.font15-size {
+  font-size: 15px;
+}
+.font18-size {
+  font-size: 18px;
+}
+.font20-size {
+  font-size: 20px;
+}
+.font25-size {
+  font-size: 25px;
+}
+.font30-size {
+  font-size: 30px;
+}
+.font50-size {
+  font-size: 50px;
+}
+.font60-size {
+  font-size: 60px;
+}
+/* End Classes For Font Sizes */
+
+/* Start Classes For Buttons */
+.black-btn {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 30px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    color: #343434;
+  }
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #343434;
+  border: 1px solid var(--main-color);
+  font-size: 13px;
+  padding: 10px 30px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: var(--main-color);
+    color: #fff;
+  }
+}
+/* End Classes For Buttons */
+
+/* Start Classes For Headings */
+.sec-head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  z-index: 4;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+  }
+}
+/* End Classes For Headings */
+
+/* Start Classes For Backgrounds */
+.bg-gray {
+  background: #f7f7f7;
+}
+/* End Classes For Backgrounds */
+
+/* Start Classes For Width And Margin */
+.w-70 {
+  width: 70%;
+  margin: auto;
+}
+
+.mg-negative {
+  margin: -43px 0;
+}
+/* End Classes For Widths And MArgin */
